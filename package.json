@@ -1,0 +1,20 @@
+{
+  "name": "newsdonkey",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saifiimuhammad/NewsDonkey.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saifiimuhammad/NewsDonkey/issues"
+  },
+  "homepage": "https://github.com/saifiimuhammad/NewsDonkey#readme"
+}
