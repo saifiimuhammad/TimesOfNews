@@ -1,5 +1,6 @@
 .news-main-container {
     padding-bottom: 2rem;
+    min-height: 100vh;
 }
 
 .btn-container {
