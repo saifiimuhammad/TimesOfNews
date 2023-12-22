@@ -1,0 +1,11 @@
+.news-main-container {
+    padding-bottom: 2rem;
+}
+
+.btn-container {
+    background-color: rgb(255, 255, 255);
+    padding-block: 1rem;
+    position: fixed;
+    bottom: 0;
+    z-index: 100;
+}
