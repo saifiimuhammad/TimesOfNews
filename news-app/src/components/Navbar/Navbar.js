@@ -17,7 +17,7 @@ export default class Navbar extends Component {
                                 <li className="nav-item">
                                     <Link className="nav-link nav-links active" aria-current="page" to="/">Home</Link>
                                 </li>
-                                <li className="nav-item"><Link className="nav-link nav-links" to="/bussiness">Business</Link></li>
+                                <li className="nav-item"><Link className="nav-link nav-links" to="/business">Business</Link></li>
                                 <li className="nav-item"><Link className="nav-link nav-links" to="/entertainment">Entertainment</Link></li>
                                 <li className="nav-item"><Link className="nav-link nav-links" to="/general">General</Link></li>
                                 <li className="nav-item"><Link className="nav-link nav-links" to="/health">Health</Link></li>
@@ -26,10 +26,6 @@ export default class Navbar extends Component {
                                 <li className="nav-item"><Link className="nav-link nav-links" to="/technology">Technology</Link></li>
 
                             </ul>
-                            <form className="d-flex" role="search">
-                                <input className='search-bar' type="search" placeholder='Search here' aria-label='Search'/>
-                                <button className='btn-submit' type='submit'><i className="ri-search-line"></i></button>
-                            </form>
                         </div>
                     </div>
                 </nav>
