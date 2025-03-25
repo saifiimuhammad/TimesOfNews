@@ -53,7 +53,7 @@ const NewsContainer = (props) => {
       <h2 className='news-container-title text-center my-3' style={{ marginTop: "90px" }}>Times of News - Top {handleCapitalizeString(props.category)} Headlines</h2>
       {loading && <Spinner />}
       <InfiniteScroll
-        dataLength={news.length}
+        dataLength={news?.length}
         next={fetchMoreData}
         style={{ display: 'flex', flexDirection: 'column', overflow: 'unset' }}
         hasMore={news.length !== totalResults}
